@@ -123,3 +123,17 @@ button:hover {
 	transform: scale(1.025);
 	color: #3a3d42;
 }
+
+@media only screen and (max-width: 650px) {
+	.container {
+		position: static;
+		height: auto;
+		width: 100%;
+		margin: 0;
+
+	}
+	
+	.bot-left, .bot-right {
+		width: 100%;
+	}
+}
